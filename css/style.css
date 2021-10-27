@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --color-white: #ffffff;
+	--color-yellow: #f1c21b;
+  --color-black:#000000
+}
+
+body{
+  font-family: 'Rampart One', cursive;
+}
