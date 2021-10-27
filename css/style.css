@@ -13,4 +13,9 @@
 
 body{
   font-family: 'Rampart One', cursive;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  scroll-padding-top: 4rem;
+  list-style: none;
+  text-decoration: none;
 }
