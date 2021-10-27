@@ -3,19 +3,49 @@
 *{
   padding: 0;
   margin: 0;
-}
-
-:root {
-  --color-white: #ffffff;
-	--color-yellow: #f1c21b;
-  --color-black:#000000
-}
-
-body{
   font-family: 'Rampart One', cursive;
   box-sizing: border-box;
   scroll-behavior: smooth;
   scroll-padding-top: 4rem;
   list-style: none;
   text-decoration: none;
+}
+
+:root {
+  --bg-color: #ffffff;
+	--main-color: #f1c21b;
+  --tetx-color:#000000;
+
+  --big-font:4rem;
+  --h2-font:2.24rem;
+  --p-font: 0.9rem;
+}
+
+*::selection {
+  background-color: var(--main-color);
+  color: var(--bg-color);
+}
+
+body{
+  color: var(--tetx-color);
+  background-color: var(--bg-color);
+}
+
+header{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 80px;
+  box-shadow: 0 0.5rem 50rem rgba(0, 0, 0, 0.1)
+}
+
+.logo{
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--main-color);
 }
