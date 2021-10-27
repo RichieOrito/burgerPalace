@@ -49,3 +49,19 @@ header{
   font-weight: 500;
   color: var(--main-color);
 }
+
+.navbar {
+  display: flex;
+}
+
+.navbar a{
+  font-size: 1rem;
+  padding:10px 20px;
+  font-weight: 500;
+  color: var(--tetx-color);
+}
+
+.nav a:hover{
+  color:var(--main-color);
+}
+
