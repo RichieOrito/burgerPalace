@@ -41,7 +41,7 @@ header{
   width: 100%;
   top: 0;
   right: 0;
-  z-index: 1000;
+  /* z-index: 1000; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -111,3 +111,4 @@ header{
 .btn:hover{
   background:yellow;
 }
+
