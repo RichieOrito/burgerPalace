@@ -36,6 +36,8 @@ body{
   background-color: var(--bg-color);
 }
 
+/* header section */
+
 header{
   position: fixed;
   width: 100%;
@@ -77,6 +79,8 @@ header{
   display: none;
 }
 
+/* home section */
+
 .home{
   width: 100%;
   height:100vh;
@@ -112,3 +116,29 @@ header{
   background:yellow;
 }
 
+/* about section */
+
+.about{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.about-img img{
+  max-width: 80%;
+  border-radius: 0.5rem;
+}
+
+.about-text span{
+  color: var(--main-color);
+  font-weight: 500;
+}
+
+.about-text h2 {
+  font-size: var(--h2-font);
+}
+
+.about-text p {
+  margin: 0.8rem 0 1.8rem;
+}
