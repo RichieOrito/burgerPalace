@@ -75,12 +75,6 @@ header{
   color: var(--main-color);
 }
 
-#menu-icon{
-  font-size: 2rem;
-  cursor: pointer;
-  display: none;
-}
-
 /* home section */
 
 .home{
