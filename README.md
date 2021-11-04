@@ -32,6 +32,9 @@
 
 ## Reference
 * LMS
+* Matt Educate
+* w3 schools
+* css Tricks
 
 [Go Back to the top](#burgerpalace)
 
