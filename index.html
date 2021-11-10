@@ -9,11 +9,10 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
   <!--Link To Css-->
   <link rel="stylesheet" href="css/style.css">
-  <!--Link To JavaScript-->
-  <script src="js/main.js"></script>
 </head>
 
 <body>
+
 
   <!--Navbar-->
   <header>
@@ -54,7 +53,7 @@
 
   <!--Menu-->
   <section class="menu" id="menu">
-      <div class="heading">
+       <div class="heading">
         <Span>Menu</Span>
         <h2>Tasty Burger of the week</h2>
       </div>
@@ -67,7 +66,13 @@
           <h2>Smash Burger</h2>
           <h3>Yummy</h3>
           <span>Ksh.800</span>
-          <i class="fas fa-shopping-cart"></i>
+          <button id="modalBtn" class="button"><i class="fas fa-shopping-cart"></i></button>
+            <div id="simpleModal" class="modal">
+              <div class="modal-content">
+                <span class="closeBtn">&times;</span>
+                <p>Hello...My modal</p>
+              </div>
+            </div>
         </div>
     
         <!-- Box 2 -->
@@ -78,7 +83,7 @@
           <h2>Smash Burger</h2>
           <h3>Yummy</h3>
           <span>Ksh.800</span>
-          <i class="fas fa-shopping-cart"></i>
+          <button id="modalBtn" class="button"><i class="fas fa-shopping-cart"></i></button>
         </div>
 
         <!-- Box 3 -->
@@ -89,7 +94,7 @@
           <h2>Smash Burger</h2>
           <h3>Yummy</h3>
           <span>Ksh.800</span>
-          <i class="fas fa-shopping-cart"></i>
+          <button id="modalBtn" class="button"><i class="fas fa-shopping-cart"></i></button>
         </div>
       </div>
   </section>
@@ -173,5 +178,7 @@
     <p> #254; RichieOrito All Right Reserved</p>
   </div>
   
+  <!--Link To JavaScript-->
+ <script src="main.js"></script>
 </body>
 </html>
